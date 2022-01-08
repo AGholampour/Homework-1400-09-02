@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+}
+.header{
+    height: 150px;
+    width: auto;
+    background-color: blue;
+    border: 5px;
+    border-color: black;
+   border-style:solid;
+   text-align: center;
+   font-size: 25px;
+}
+.nav{
+    overflow:hidden;
+    background-color: black;
+}
+.nav a{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.nav a:hover{
+    color: brown;
+    transition: 0.5 ease-out;
+    cursor: pointer;
+}
+.left{
+    float: left;
+    height: 800px;
+    width: 490px;
+    background-color:red;
+    border: 5px;
+    border-color: black;
+   border-style:solid;
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.right{
+    float: right;
+    background-color: white;
+    height: 800px;
+    width: 990px;
+    border: 5px;
+    border-color: black;
+   border-style:solid;
+   margin-top: 5px;
+   text-align: center;
+   font-size: 25px;
+}
+.Footer{
+background-color: rgb(68, 139, 26);
+height: 150px;
+width: auto;
+margin-top: 820px;
+border: 5px;
+border-color: black;
+border-style:solid;
+text-align: center;
+font-size: 25px;
+animation-name: example;
+ animation-iteration-count: 3;
+}
+@keyframes example{
+    0%{background-color: blue; left: 0%; top: 0%;}
+    25%{background-color:chartreuse ; left: 200%; top: 0%;}
+    50%{background-color:deeppink; left: 200; top: 200%;}
+}
+.img{
+    margin-top: 350px;
+    margin-left: 140px;
+    
+ animation-name: example;
+ animation-duration: 4s;
+}
+
